@@ -1,0 +1,158 @@
+nav .content.flex {
+    align-items: content;
+    justify-content: space-between;
+    background: #004f6b;
+    padding: 1rem 10px;
+    }
+    nav .navation {
+    justify-content: space-between;
+    align-items: center;
+    }
+    nav .links .icon {
+    gap: 10px;
+    padding: 7px;
+    font-size: 1.2rem;
+    color: #fff;
+    transition: 0.3s;
+    }
+    nav .links .icon:hover {
+    color: var(--icon-hover);
+    transition: 0.3s;
+    font-size: 1.4rem;
+    cursor: pointer;
+    scale: 1.1;
+    }
+    nav .navation ul {
+    gap: 20px;
+    padding: 1rem 10px;
+    }
+    nav .navation ul li .active {
+    background: #24afe1ff;
+    color: #fff;
+    font-size: 21px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    }
+    nav .navation ul li a:hover {
+    background: #24afe1ff;
+    color: #fff;
+    font-size: 21px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    }
+    nav .navation ul a {
+    color: rgb(95, 99, 106);
+    font-weight: blod;
+    font-size: 20px;
+    font-family: Poppins;
+    transition: 0.4s;
+    }
+    nav .numbers {
+    gap: 10px;
+    color: #fff;
+    font-size: 16px;
+    }
+    
+    nav .logo img {
+    width: 100px;
+    }
+    
+    main .home-img img {
+    width: 100%;
+    height: 100vh;
+    }
+    
+    main {
+    background: url("../../../../public/low-angle-view-skyscrapers.jpg")
+    center/cover no-repeat;
+    /* opacity:.5; */
+    
+    width: 100%;
+    height: 90vh;
+    over-flow: hiddin;
+    }
+    main .perent {
+    text-align: center;
+    /* position:absolute; /
+    / display:inline-block;
+    align-items:center;
+    justify-content:center; /
+    }
+    main .perent .overflow {
+    / position:relative;
+    inset:0px; /
+    background: #000;
+    width: 100%;
+    opacity: 0.6;
+    height: 90vh;
+    / z-index:10; */
+    }
+    main .perent .btn-1 {
+    margin-top: 5rem;
+    padding: 7px 17px;
+    font-size: 1.5rem;
+    color: #004f6b;
+    background: #cce2ee;
+    font-weight: blod;
+    border-radius: 6px;
+    border: none;
+    }
+    main .perent h2 {
+    padding: 13px 0px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    }
+    
+    main .perent p {
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    }
+    main .perent .btn-2 {
+    padding: 7px 17px;
+    font-size: 1.5rem;
+    background: #19a5d78b;
+    border: 1px solid #19a5d78b;
+    border-radius: 5px;
+    margin: 12px;
+    color: #fff;
+    }
+    nav .menu{
+    display:none;
+    padding:0px 10px;
+    margin-left:10px;
+    background:#004f6b;
+    font-size:1.9rem;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    transition:0.3s;
+    }
+    
+    @media (max-width:600px){
+    .navation .flex{
+    display:none;
+    }
+    nav .menu{
+    display:block;
+    transition:0.3s;
+    }
+    ul.model{
+    display:flex;
+    flex-direction:column;
+    align-items:end;
+    background:#004f6b;
+    gap: 12px;
+    }
+    ul.model a{
+    padding:2rem 7px;
+    font-size:1rem;
+    color:#fff;
+    
+    }
+    
+    }
+    
+   
