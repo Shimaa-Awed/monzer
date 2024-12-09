@@ -63,7 +63,7 @@ nav .content.flex {
     }
     
     main {
-    background: url("../../../../public/low-angle-view-skyscrapers.jpg")
+    background: url("../../../public/low-angle-view-skyscrapers.jpg")
     center/cover no-repeat;
     /* opacity:.5; */
     
