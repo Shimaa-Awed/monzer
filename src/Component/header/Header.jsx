@@ -1,5 +1,5 @@
 import './header.css';
-import logo from '../../../../public/rb_44.png';
+import logo from '../../../public/rb_44.png';
 import { useState } from 'react';
 import { IoClose, IoMenu } from "react-icons/io5";
 import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';

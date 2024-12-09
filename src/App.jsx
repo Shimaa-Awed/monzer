@@ -1,7 +1,7 @@
 
 
 
-import Header from './assets/component/header/Header'
+import Header from "./Component/header/Header"
 
 function App() {
  
@@ -13,4 +13,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
